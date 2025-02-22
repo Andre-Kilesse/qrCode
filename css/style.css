@@ -3,6 +3,8 @@
 *{
     margin: 0;
     padding: 0;
+    border: 0;
+    box-sizing: border-box;
     
 }
 
@@ -17,7 +19,7 @@ body{
     
 }
 
-.card{
+article{
     background-color: hsl(0, 0%, 100%);
     padding: 20px;
     max-width: 300px;
@@ -29,23 +31,23 @@ body{
     text-align: center;
 }
 
-.card img{
+article img{
     max-width: 100%;
     height: auto;
     border-radius: 25px;
     margin-bottom: 20px;
 }
 
-.card h2{
-    font-size: 25px;
+h1{
     font-weight: 700;
+    font-size: 1.6rem;
     color: hsl(218, 44%, 22%);
     margin-bottom: 20px;
 }
 
-.card p{
-    font-size: 15px;
+p{
     font-weight: 400;
+    font-size: 0.9rem;
     color: hsl(216, 15%, 48%)
 }
 
